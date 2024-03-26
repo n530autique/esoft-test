@@ -1,0 +1,50 @@
+
+.sky{
+	background-color: rgb(127, 212, 255);
+	width: 500px;
+	height: 250px;
+}
+.roof {
+	border: 125px solid transparent; border-bottom: 50px solid rgb(45, 14, 0);
+}
+
+.chimney {
+	width: 15px;
+	height: 85px;
+	background-color: rgb(45, 14, 0);
+	position: absolute;
+	left: 50px;
+}
+.ground {
+	background-color: greenyellow;
+	width: 500px;
+	height: 250px;
+}
+
+.foundation {
+	background-color: rgb(70, 26, 26);
+	width: 150px;
+	height: 100px;
+	position: absolute;
+	left: 50px;
+}
+
+.house {
+	position: relative;
+	width: max-content;
+	height: max-content;
+	text-align: center;
+	margin: 10px;
+
+}
+
+.window {
+	background-color: rgb(134, 191, 255);
+	width: 45px;
+	height: 45px;
+	border-radius: 100%;
+	border: 3px solid rgb(42, 27, 22);
+	position: absolute;
+	left: 30%;
+	top: 10px;
+}
